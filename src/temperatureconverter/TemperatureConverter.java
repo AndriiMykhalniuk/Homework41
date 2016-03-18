@@ -1,3 +1,7 @@
+package temperatureconverter;
+
+// Конвертировать температуру из C в F
+
 public class TemperatureConverter {
 
     public static void main(String[] args) {
@@ -17,7 +21,7 @@ public class TemperatureConverter {
             convertTemp = temperature * 9 / 5 + 32;
 
         } else if (convertTo == 'C') {
-            convertTemp = (temperature - 32) * 5 / 9;
+            convertTemp = ( temperature - 32 ) * 5 / 9;
         }
 
         value = String.valueOf(convertTemp);
